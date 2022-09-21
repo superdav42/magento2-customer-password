@@ -37,7 +37,7 @@ class PasswordSection extends \Magento\Ui\Component\Form\Fieldset
      */
     public function __construct(
         ContextInterface $context,
-        Data $helper
+        Data $helper,
         $components = [],
         array $data = []
     ) {
