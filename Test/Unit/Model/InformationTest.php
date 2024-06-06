@@ -35,7 +35,7 @@ class InformationTest extends \PHPUnit\Framework\TestCase
     public $passwordLog1;
     public $customerSecure;
 
-    public function setUp()
+    public function setUp():void
     {
         $this->customerRepositoryInterface = $this->getMockBuilder(
             \Magento\Customer\Api\CustomerRepositoryInterface::class
