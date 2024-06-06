@@ -200,7 +200,7 @@ class AccountTest extends \PHPUnit\Framework\TestCase
     /**
      * @SuppressWarnings(PHPMD.ExcessiveMethodLength)
      */
-    protected function setUp()
+    protected function setUp():void
     {
         $this->customerFactory = $this->createPartialMock(\Magento\Customer\Model\CustomerFactory::class, ['create']);
         $this->manager = $this->createMock(\Magento\Framework\Event\ManagerInterface::class);
